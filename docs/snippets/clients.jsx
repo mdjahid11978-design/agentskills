@@ -295,6 +295,14 @@ export const clients = [
     instructionsUrl: "https://kiro.dev/docs/skills/",
   },
   {
+    name: "Workshop",
+    description: "Workshop is a cross-platform AI coding agent for building full applications. It supports multi-LLM models, sub-agents, custom agents, and skills — available as a desktop app, web app, and CLI.",
+    url: "https://workshop.ai/",
+    lightSrc: "/images/logos/workshop/workshop-logo-light.svg",
+    darkSrc: "/images/logos/workshop/workshop-logo-dark.svg",
+    instructionsUrl: "https://docs.workshop.ai/core-concepts/working-with-the-agent#create-your-own-agents",
+  },
+  {
     name: "Google AI Edge Gallery",
     description: "Google AI Edge Gallery is the premier destination for running the world's most powerful open-source Large Language Models (LLMs) on your mobile device",
     url: "https://github.com/google-ai-edge/gallery",
