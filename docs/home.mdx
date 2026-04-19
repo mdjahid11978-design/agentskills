@@ -30,6 +30,18 @@ Agents are increasingly capable, but often don't have the context they need to d
 - **Repeatable workflows**: Turn multi-step tasks into consistent, auditable procedures.
 - **Cross-product reuse**: Build a skill once and use it across any skills-compatible agent.
 
+## How do Agent Skills work?
+
+Agents load skills through **progressive disclosure**, in three stages:
+
+1. **Discovery**: At startup, agents load only the name and description of each available skill, just enough to know when it might be relevant.
+
+2. **Activation**: When a task matches a skill's description, the agent reads the full `SKILL.md` instructions into context.
+
+3. **Execution**: The agent follows the instructions, optionally executing bundled code or loading referenced files as needed.
+
+Full instructions load only when a task calls for them, so agents can keep many skills on hand with only a small context footprint.
+
 ## Adoption
 
 Agent Skills are supported by leading AI development tools.
